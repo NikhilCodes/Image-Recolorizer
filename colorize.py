@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
 
-model = load_model('my_model.h5')
+model = load_model('model_dir/my_model.h5')
 
 if len(sys.argv) == 2:
     img_file_name = sys.argv[1]
